@@ -45,7 +45,8 @@ public class Puntaje {
 
 	public int[] NuevoJuego(int primer, int segundo) {
 		// TODO Auto-generated method stub
-		return null;
+		int retorno[] = {primer,segundo};
+		return retorno;
 	}
 	
 	
