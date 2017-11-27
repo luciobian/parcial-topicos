@@ -43,7 +43,7 @@ public class Puntaje {
 		return resultado;
 	}
 
-	public int[] NuevoJuego(int primer, int segundo) {
+	public int[] NuevoFrame(int primer, int segundo) {
 		// TODO Auto-generated method stub
 		int retorno[] = {primer,segundo};
 		return retorno;
