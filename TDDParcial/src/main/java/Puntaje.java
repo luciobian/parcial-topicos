@@ -12,13 +12,13 @@ public class Puntaje {
 
 	public int mostrarPrimerTiro() {
 		// TODO Auto-generated method stub
-		
-		
 		return this.primerTiro;
 	}
 
-	public void setSegundoTiro(int i) {
+	public void setSegundoTiro(int i) throws Exception {
 		// TODO Auto-generated method stub
+		if (i > 10)
+			throw new Exception("Tiene que ser menor o igual a 10");
 		this.segundoTiro = i;
 	}
 
