@@ -22,4 +22,11 @@ public class Puntaje {
 		return this.segundoTiro;
 	}
 
+	public int sumar(int mostrarPrimerTiro, int mostrarSegundoTiro) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
 }

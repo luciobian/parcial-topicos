@@ -30,5 +30,20 @@ public class TestPuntajeBowling {
 		
 		assertEquals(esperado, result);
 	}
+	
+	@Test
+	public void TestSumaDeTiros() {
+		Puntaje puntaje = new Puntaje();
+		
+		puntaje.setPrimerTiro(5);
+		puntaje.setSegundoTiro(5);
+		int resultado  = puntaje.sumar(puntaje.mostrarPrimerTiro(),puntaje.mostrarSegundoTiro());
+		
+		int esperado = 10;
+		
+		assertEquals(esperado, resultado);
+		
+		
+	}
 
 }
