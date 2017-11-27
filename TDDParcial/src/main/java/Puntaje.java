@@ -24,7 +24,7 @@ public class Puntaje {
 
 	public int sumar(int mostrarPrimerTiro, int mostrarSegundoTiro) {
 		// TODO Auto-generated method stub
-		return 0;
+		return mostrarPrimerTiro + mostrarSegundoTiro;
 	}
 	
 	
