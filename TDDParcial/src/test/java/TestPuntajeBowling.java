@@ -41,9 +41,19 @@ public class TestPuntajeBowling {
 		
 		int esperado = 10;
 		
-		assertEquals(esperado, resultado);
+		assertEquals(esperado, resultado);	
 		
+	}
+	
+	@Test 
+	public void TestPrimerTiro10Segundo0() {
+		Puntaje puntaje = new Puntaje();
+		puntaje.setPrimerTiro(10);
+		int esperado = 0;
 		
+		int obtenido = puntaje.mostrarSegundoTiro();
+		
+		assertEquals(esperado, obtenido);
 	}
 
 }
