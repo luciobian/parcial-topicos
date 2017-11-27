@@ -55,5 +55,12 @@ public class TestPuntajeBowling {
 		
 		assertEquals(esperado, obtenido);
 	}
+	
+	@Test(expected = Exception.class)
+	public void TestPrimerTiroMayor10() {
+		Puntaje puntaje = new Puntaje();
+		
+		puntaje.setPrimerTiro(11);
+	}
 
 }
