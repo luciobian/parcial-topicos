@@ -76,5 +76,10 @@ public class TestPuntajeBowling {
 		puntaje.setPrimerTiro(-10);
 	}
 	
+	@Test (expected = Exception.class)
+	public void TestSegundoTiroMenor0() throws Exception {
+		Puntaje puntaje = new Puntaje();
+		puntaje.setSegundoTiro(-10);
+	}
 
 }
