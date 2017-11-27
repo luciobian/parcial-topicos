@@ -12,4 +12,14 @@ public class Puntaje {
 		return this.primerTiro;
 	}
 
+	public void setSegundoTiro(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int mostrarSegundoTiro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
