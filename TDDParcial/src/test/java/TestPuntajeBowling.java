@@ -11,11 +11,17 @@ public class TestPuntajeBowling {
 	@Test
 	public void TestPrimerTiro() {
 		Puntaje puntaje = new Puntaje();
+		
+		puntaje.setPrimerTiro(5);
 		int resulta = puntaje.mostrarPrimerTiro();
 		
 		int esperado = 5;
 		
 		assertEquals(esperado, resulta);
+	}
+	@Test
+	public void TestSegundoTiro() {
+		
 	}
 
 }
