@@ -2,7 +2,7 @@
 public class Puntaje {
 
 	private int primerTiro;
-	
+	private int segundoTiro;
 	public void setPrimerTiro(int pt) {
 		this.primerTiro = pt;
 	}
@@ -14,12 +14,12 @@ public class Puntaje {
 
 	public void setSegundoTiro(int i) {
 		// TODO Auto-generated method stub
-		
+		this.segundoTiro = i;
 	}
 
 	public int mostrarSegundoTiro() {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.segundoTiro;
 	}
 
 }
