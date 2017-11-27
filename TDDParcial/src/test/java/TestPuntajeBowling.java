@@ -82,7 +82,7 @@ public class TestPuntajeBowling {
 		puntaje.setSegundoTiro(-10);
 	}
 	@Test (expected = Exception.class)
-	public void TestSumaMenor19() {
+	public void TestSumaMenor19() throws Exception {
 		Puntaje puntaje = new Puntaje();
 		puntaje.sumar(10, 10);
 	}

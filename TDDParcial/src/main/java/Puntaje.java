@@ -34,9 +34,13 @@ public class Puntaje {
 		return this.segundoTiro;
 	}
 
-	public int sumar(int mostrarPrimerTiro, int mostrarSegundoTiro) {
+	public int sumar(int mostrarPrimerTiro, int mostrarSegundoTiro) throws Exception {
 		// TODO Auto-generated method stub
-		return mostrarPrimerTiro + mostrarSegundoTiro;
+		int resultado = mostrarPrimerTiro + mostrarSegundoTiro;
+		if (resultado > 19)
+			throw new Exception("el max resultado es 19");
+		else
+		return resultado;
 	}
 	
 	
