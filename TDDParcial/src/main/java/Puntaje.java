@@ -48,6 +48,18 @@ public class Puntaje {
 		int retorno[] = {primer,segundo};
 		return retorno;
 	}
+
+	
+
+	public int[] mostrarFrame() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int[] setNuevoJuego(int[] frameNuevo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 

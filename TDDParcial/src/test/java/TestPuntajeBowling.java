@@ -99,5 +99,20 @@ public class TestPuntajeBowling {
 		
 		assertArrayEquals(esperado, resultado); 
 	}
+	
+	@Test
+	public void TestNuevoJuego() {
+		Puntaje puntaje = new Puntaje();
+		int frameNuevo[] = puntaje.NuevoFrame(5, 5);
+		
+		int juegoNuevo[] = puntaje.setNuevoJuego(frameNuevo);
+		
+		int result[] = puntaje.mostrarFrame();
+		int frame[]  = {5,5};
+		int esperad[] = frame;
+		
+		assertArrayEquals(esperad, result);
+		
+	}
 
 }
