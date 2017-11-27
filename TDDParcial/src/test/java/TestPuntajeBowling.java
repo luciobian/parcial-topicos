@@ -97,7 +97,7 @@ public class TestPuntajeBowling {
 		int resultado[] = puntaje.NuevoJuego(primer, segundo); 
 		int esperado[] = {5,6};
 		
-		assertArrayEquals(esperado, resultado);
+		assertArrayEquals(esperado, resultado); 
 	}
 
 }
