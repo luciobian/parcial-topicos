@@ -22,6 +22,10 @@ public class Puntaje {
 		// TODO Auto-generated method stub
 		if (i > 10 )
 			throw new Exception("Tiene que ser menor o igual a 10");
+		else if (i < 0) {
+			throw new Exception("Tiene que ser menor o igual a 10");
+			}
+		else
 		this.segundoTiro = i;
 	}
 
