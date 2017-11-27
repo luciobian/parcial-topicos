@@ -66,7 +66,8 @@ public class Puntaje {
 
 	public int[] nuevoPleno(int primerTiro2, int segundoTiro2) {
 		// TODO Auto-generated method stub
-		return null;
+		int pleno[] = {primerTiro2,segundoTiro2};
+		return pleno ;
 	}
 	
 	
