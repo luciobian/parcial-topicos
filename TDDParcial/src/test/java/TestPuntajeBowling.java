@@ -9,7 +9,7 @@ public class TestPuntajeBowling {
 	}
 
 	@Test
-	public void TestPrimerTiro() {
+	public void TestPrimerTiro() throws Exception {
 		Puntaje puntaje = new Puntaje();
 		
 		puntaje.setPrimerTiro(5);
@@ -20,7 +20,7 @@ public class TestPuntajeBowling {
 		assertEquals(esperado, resulta);
 	}
 	@Test
-	public void TestSegundoTiro() {
+	public void TestSegundoTiro() throws Exception {
 		Puntaje puntaje = new Puntaje();
 		
 		puntaje.setPrimerTiro(5);
@@ -32,7 +32,7 @@ public class TestPuntajeBowling {
 	}
 	
 	@Test
-	public void TestSumaDeTiros() {
+	public void TestSumaDeTiros() throws Exception {
 		Puntaje puntaje = new Puntaje();
 		
 		puntaje.setPrimerTiro(5);
@@ -46,7 +46,7 @@ public class TestPuntajeBowling {
 	}
 	
 	@Test 
-	public void TestPrimerTiro10Segundo0() {
+	public void TestPrimerTiro10Segundo0() throws Exception {
 		Puntaje puntaje = new Puntaje();
 		puntaje.setPrimerTiro(10);
 		int esperado = 0;
@@ -57,7 +57,7 @@ public class TestPuntajeBowling {
 	}
 	
 	@Test(expected = Exception.class)
-	public void TestPrimerTiroMayor10() {
+	public void TestPrimerTiroMayor10() throws Exception {
 		Puntaje puntaje = new Puntaje();
 		
 		puntaje.setPrimerTiro(11);

@@ -3,7 +3,10 @@ public class Puntaje {
 
 	private int primerTiro;
 	private int segundoTiro;
-	public void setPrimerTiro(int pt) {
+	public void setPrimerTiro(int pt) throws Exception {
+		if (pt > 10)
+			throw new Exception("Tiene que ser menor o igual a 10");
+		else
 		this.primerTiro = pt;
 	}
 
