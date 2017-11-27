@@ -42,6 +42,11 @@ public class Puntaje {
 		else
 		return resultado;
 	}
+
+	public int[] NuevoJuego(int primer, int segundo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 

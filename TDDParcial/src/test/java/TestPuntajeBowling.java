@@ -86,5 +86,18 @@ public class TestPuntajeBowling {
 		Puntaje puntaje = new Puntaje();
 		puntaje.sumar(10, 10);
 	}
+	
+	@Test
+	public void TestJuego() throws Exception {
+		Puntaje puntaje = new Puntaje ();
+		puntaje.setPrimerTiro(5);
+		puntaje.setSegundoTiro(6);
+		int primer = puntaje.mostrarPrimerTiro();
+		int segundo = puntaje.mostrarSegundoTiro();
+		int resultado[] = puntaje.NuevoJuego(primer, segundo); 
+		int esperado[] = {5,6};
+		
+		assertArrayEquals(esperado, resultado);
+	}
 
 }
