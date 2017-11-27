@@ -4,10 +4,13 @@ public class Puntaje {
 	private int primerTiro;
 	private int segundoTiro;
 	public void setPrimerTiro(int pt) throws Exception {
-		if (pt > 10)
+		if ((pt > 10) )
 			throw new Exception("Tiene que ser menor o igual a 10");
+		else if (pt < 0) {
+			throw new Exception("Tiene que ser menor o igual a 10");
+			}
 		else
-		this.primerTiro = pt;
+			this.primerTiro = pt;
 	}
 
 	public int mostrarPrimerTiro() {
@@ -17,7 +20,7 @@ public class Puntaje {
 
 	public void setSegundoTiro(int i) throws Exception {
 		// TODO Auto-generated method stub
-		if (i > 10)
+		if (i > 10 )
 			throw new Exception("Tiene que ser menor o igual a 10");
 		this.segundoTiro = i;
 	}
