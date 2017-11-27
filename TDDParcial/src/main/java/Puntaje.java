@@ -61,6 +61,13 @@ public class Puntaje {
 		// TODO Auto-generated method stub
 		this.juego = frameNuevo;
 	}
+
+	
+
+	public int[] nuevoPleno(int primerTiro2, int segundoTiro2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 

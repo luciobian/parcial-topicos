@@ -114,5 +114,17 @@ public class TestPuntajeBowling {
 		assertArrayEquals(esperad, result);
 		
 	}
+	
+	@Test
+	public void TestPleno() throws Exception {
+		Puntaje puntaje = new Puntaje();
+		 puntaje.setPrimerTiro(10);
+		 int primerTiro =puntaje.mostrarPrimerTiro();
+		int segundoTiro = puntaje.mostrarSegundoTiro();
+		int result[] = puntaje.nuevoPleno(primerTiro,segundoTiro);
+		int esperado[] = {10,0};
+		
+		assertArrayEquals(esperado, result);
+	}
 
 }
