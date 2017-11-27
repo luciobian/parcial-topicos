@@ -3,6 +3,7 @@ public class Puntaje {
 
 	private int primerTiro;
 	private int segundoTiro;
+	private int juego[];
 	public void setPrimerTiro(int pt) throws Exception {
 		if ((pt > 10) )
 			throw new Exception("Tiene que ser menor o igual a 10");
@@ -53,12 +54,12 @@ public class Puntaje {
 
 	public int[] mostrarFrame() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.juego;
 	}
 
-	public int[] setNuevoJuego(int[] frameNuevo) {
+	public void setNuevoJuego(int[] frameNuevo) {
 		// TODO Auto-generated method stub
-		return null;
+		this.juego = frameNuevo;
 	}
 	
 	

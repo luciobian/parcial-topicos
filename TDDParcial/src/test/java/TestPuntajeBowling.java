@@ -105,7 +105,7 @@ public class TestPuntajeBowling {
 		Puntaje puntaje = new Puntaje();
 		int frameNuevo[] = puntaje.NuevoFrame(5, 5);
 		
-		int juegoNuevo[] = puntaje.setNuevoJuego(frameNuevo);
+		puntaje.setNuevoJuego(frameNuevo);
 		
 		int result[] = puntaje.mostrarFrame();
 		int frame[]  = {5,5};
